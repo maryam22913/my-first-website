@@ -1,4 +1,4 @@
-# 🌟 Maryam - Modern Single-Page Portfolio
+# 🌟 Maryam Ayra - Modern Single-Page Portfolio
 
 A modern, fast, responsive single-page personal website and portfolio built with clean semantic HTML5, CSS3, and JavaScript.
 
