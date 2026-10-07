@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 4. Contact Form Handling
+  // 4. Project Inquiry Form Handling
   const contactForm = document.getElementById('contactForm');
   const formFeedback = document.getElementById('formFeedback');
 
@@ -44,11 +44,13 @@ document.addEventListener('DOMContentLoaded', () => {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
       const nameInput = document.getElementById('name');
-      const name = nameInput ? nameInput.value.trim() : 'Friend';
+      const serviceSelect = document.getElementById('serviceSelect');
+      const name = nameInput ? nameInput.value.trim() : 'Valued Client';
+      const service = serviceSelect ? serviceSelect.value : 'Creative Services';
 
       if (formFeedback) {
         formFeedback.className = 'form-feedback success';
-        formFeedback.textContent = `✨ Thank you, ${name}! Your message has been sent successfully.`;
+        formFeedback.textContent = `✨ Thank you, ${name}! Your inquiry for "${service}" has been received. Maryam Ayra Studio will get back to you within 24 hours.`;
       }
 
       contactForm.reset();
@@ -57,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (formFeedback) {
           formFeedback.textContent = '';
         }
-      }, 5000);
+      }, 7000);
     });
   }
 
