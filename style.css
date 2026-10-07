@@ -562,6 +562,173 @@ h1, h2, h3, h4 {
   color: var(--text-muted);
 }
 
+/* Digital Planners Grid */
+.planners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.8rem;
+  align-items: stretch;
+}
+
+.planner-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.featured-planner {
+  border-color: rgba(244, 63, 94, 0.45);
+  box-shadow: 0 0 25px rgba(244, 63, 94, 0.2);
+}
+
+.planner-badge-top {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: var(--accent-gradient);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  z-index: 2;
+  box-shadow: 0 4px 10px rgba(244, 63, 94, 0.35);
+}
+
+.planner-preview {
+  height: 170px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+}
+
+.preview-planner-1 {
+  background: linear-gradient(135deg, #f43f5e 0%, #fb923c 100%);
+}
+
+.preview-planner-2 {
+  background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+}
+
+.preview-planner-3 {
+  background: linear-gradient(135deg, #059669 0%, #0284c7 100%);
+}
+
+.preview-planner-4 {
+  background: linear-gradient(135deg, #ea580c 0%, #eab308 100%);
+}
+
+.format-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(8px);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+}
+
+.planner-mockup {
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.25rem;
+  width: 82%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.mockup-icon {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.mockup-title {
+  font-weight: 700;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.mockup-sub {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.planner-body {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.planner-price-box {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.current-price {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--accent-primary);
+}
+
+.old-price {
+  font-size: 0.9rem;
+  color: var(--text-subtle);
+  text-decoration: line-through;
+}
+
+.discount-pill {
+  background: rgba(37, 211, 102, 0.15);
+  color: #25D366;
+  border: 1px solid rgba(37, 211, 102, 0.3);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-full);
+  margin-left: auto;
+}
+
+.planner-body h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.planner-body > p {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  margin-bottom: 1.2rem;
+}
+
+.planner-perks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-bottom: 1.5rem;
+  margin-top: auto;
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+}
+
+.planner-perks li {
+  font-size: 0.82rem;
+  color: var(--text-main);
+}
+
 /* Portfolio Projects Grid */
 .projects-grid {
   display: grid;

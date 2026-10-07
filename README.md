@@ -4,6 +4,7 @@ A modern, high-converting business and portfolio website for **Maryam Ayra Studi
 
 ## 🚀 Key Business Features
 - 💼 **Professional Brand Identity**: Tailored for creative design & digital services.
+- 📖 **Digital Planners & Shop**: Aesthetic GoodNotes life planners, social media kits, business finance sheets & wellness journals with instant WhatsApp ordering.
 - 💬 **WhatsApp Integration**: Floating WhatsApp widget & 1-click package ordering links with prepopulated messages.
 - 🎨 **Services Showcase**: Brand identity, UI/UX & web design, social media kits, print & packaging.
 - 📦 **Transparent Pricing Packages**: Starter Brand, Business Pro (Most Popular), and Digital Elite tiers.
