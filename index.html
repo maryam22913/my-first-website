@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maryam | Creative Portfolio</title>
+  <meta name="description" content="Personal portfolio and creative showcase of Maryam - Developer & Designer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="dark">
+  <!-- Glowing Background Orbs -->
+  <div class="glow-orb orb-1" aria-hidden="true"></div>
+  <div class="glow-orb orb-2" aria-hidden="true"></div>
+  <div class="glow-orb orb-3" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-badge">M</span>
+        <span class="brand-name">Maryam<span class="dot">.</span></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme" title="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary sm-hide">Let's Talk</a>
+
+        <button id="menuToggle" class="menu-btn" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-content">
+        <div class="hero-pill">
+          <span class="pulsing-dot"></span>
+          <span>Available for exciting projects</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Maryam</span>.<br />
+          Crafting modern web experiences.
+        </h1>
+
+        <p class="hero-subtitle">
+          A passionate developer & designer who transforms ideas into fast, elegant, and interactive websites. Welcome to my personal corner on the web!
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            Explore My Work
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#about" class="btn btn-secondary">Learn About Me</a>
+        </div>
+
+        <!-- Metric Cards -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Responsive Layout</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">Ultra</span>
+            <span class="stat-label">Fast Performance</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">Clean</span>
+            <span class="stat-label">Modern Code</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Passion for building the future</h2>
+          <p class="section-desc">Here is a quick snapshot of what drives me and what I love creating.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-panel">
+            <div class="icon-circle icon-purple">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3>Modern Web Design</h3>
+            <p>I build intuitive, eye-pleasing user interfaces that feel smooth across all devices — from phones to ultra-wide displays.</p>
+          </div>
+
+          <div class="about-card glass-panel">
+            <div class="icon-circle icon-pink">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3>Clean Code Architecture</h3>
+            <p>Writing neat, semantic, and maintainable code is my priority. Every pixel and line serves a clear purpose.</p>
+          </div>
+
+          <div class="about-card glass-panel">
+            <div class="icon-circle icon-cyan">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                <path d="M2 12h20"></path>
+              </svg>
+            </div>
+            <h3>Always Learning</h3>
+            <p>Constantly exploring modern web frameworks, animations, and deploying creative solutions to cloud platforms like Vercel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Tech Stack</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-desc">The modern toolset I use to turn ideas into digital realities.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-badge">
+            <span class="skill-icon">🌐</span>
+            <div class="skill-info">
+              <h4>HTML5 & Semantic Markup</h4>
+              <span>Accessibility & Structure</span>
+            </div>
+          </div>
+          <div class="skill-badge">
+            <span class="skill-icon">🎨</span>
+            <div class="skill-info">
+              <h4>Modern CSS3 & Flexbox/Grid</h4>
+              <span>Animations, Responsive Design</span>
+            </div>
+          </div>
+          <div class="skill-badge">
+            <span class="skill-icon">⚡</span>
+            <div class="skill-info">
+              <h4>JavaScript (ES6+)</h4>
+              <span>Interactive UI & DOM Logic</span>
+            </div>
+          </div>
+          <div class="skill-badge">
+            <span class="skill-icon">🐙</span>
+            <div class="skill-info">
+              <h4>Git & GitHub</h4>
+              <span>Version Control & Collaboration</span>
+            </div>
+          </div>
+          <div class="skill-badge">
+            <span class="skill-icon">▲</span>
+            <div class="skill-info">
+              <h4>Vercel Deployment</h4>
+              <span>Fast Global Edge CDN</span>
+            </div>
+          </div>
+          <div class="skill-badge">
+            <span class="skill-icon">✨</span>
+            <div class="skill-info">
+              <h4>UI / UX Design</h4>
+              <span>Glassmorphism, Visual Hierarchy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-desc">A selection of sample works highlighting creativity and responsiveness.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card glass-panel">
+            <div class="project-preview preview-gradient-1">
+              <span class="project-tag">Single Page App</span>
+              <div class="preview-mockup">
+                <div class="mockup-bar"><span></span><span></span><span></span></div>
+                <div class="mockup-content">✨ Creative Portfolio</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Personal Showcase Website</h3>
+              <p>A fast, responsive, and accessible personal portfolio website built with clean semantic HTML, CSS3, and JavaScript.</p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Vercel</span>
+              </div>
+              <div class="project-links">
+                <a href="#home" class="btn btn-outline sm">Live View</a>
+                <a href="https://github.com/maryam22913" target="_blank" rel="noopener" class="btn btn-ghost sm">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-panel">
+            <div class="project-preview preview-gradient-2">
+              <span class="project-tag">Web Application</span>
+              <div class="preview-mockup">
+                <div class="mockup-bar"><span></span><span></span><span></span></div>
+                <div class="mockup-content">🚀 Task Dashboard</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Task Management Hub</h3>
+              <p>A smart productivity application with interactive filtering, status trackers, and smooth card drag animations.</p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>CSS Grid</span>
+                <span>Local Storage</span>
+              </div>
+              <div class="project-links">
+                <a href="#contact" class="btn btn-outline sm">In Progress</a>
+                <a href="https://github.com/maryam22913" target="_blank" rel="noopener" class="btn btn-ghost sm">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-panel">
+            <div class="project-preview preview-gradient-3">
+              <span class="project-tag">Design System</span>
+              <div class="preview-mockup">
+                <div class="mockup-bar"><span></span><span></span><span></span></div>
+                <div class="mockup-content">🎨 UI Component Library</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Modern UI Kit</h3>
+              <p>A reusable collection of glassmorphism buttons, interactive modals, animated badges, and responsive containers.</p>
+              <div class="project-tech">
+                <span>CSS Variables</span>
+                <span>Glassmorphism</span>
+                <span>SVG</span>
+              </div>
+              <div class="project-links">
+                <a href="#contact" class="btn btn-outline sm">Explore</a>
+                <a href="https://github.com/maryam22913" target="_blank" rel="noopener" class="btn btn-ghost sm">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="contact-box glass-panel">
+          <div class="contact-info">
+            <span class="section-tag">Get In Touch</span>
+            <h2>Let's build something amazing together!</h2>
+            <p>Have an idea or want to collaborate? Send a message and let's get connected.</p>
+
+            <div class="contact-methods">
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div>
+                  <strong>Email</strong>
+                  <p>maryam@example.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🐙</div>
+                <div>
+                  <strong>GitHub Profile</strong>
+                  <p>github.com/maryam22913</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🌍</div>
+                <div>
+                  <strong>Status</strong>
+                  <p>Open for opportunities & learning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="E.g. Alex Smith" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="alex@example.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" rows="4" placeholder="Hi Maryam, I'd love to connect..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              Send Message
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+            <div id="formFeedback" class="form-feedback" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="currentYear"></span> Maryam. Built with HTML, CSS & JavaScript. Ready for Vercel 🚀</p>
+      <div class="footer-links">
+        <a href="#home">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
